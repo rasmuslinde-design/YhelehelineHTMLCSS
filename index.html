@@ -1,13 +1,61 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-            <meta name="keywords" content="">
-            <meta name="description" content="">
-            <title>Veebileht</title>
-            <link rel="stylesheet" href="style.css">
-        </head>
-        <body>
-            <img src="images/ookull.jpg" alt="Ilus lind">        
-        </body>
+<html lang="et">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rasmuse veebileht</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <h1>Tere tulemast</h1>
+        <p>Õpime koos!</p>
+      </div>
+    </section>
+
+    <a href="#content" class="skip-link">Liigu sisu juurde</a>
+
+    <header>
+      <h1>Rasmuse veebileht</h1>
+      <nav aria-label="Põhinavigatsioon">
+        <a href="#sissejuhatus">Sissejuhatus</a>
+        <a href="#teooria">Teooria</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </header>
+
+    <main id="content" tabindex="-1">
+      <section id="sissejuhatus">
+        <h2>Sissejuhatus</h2>
+        <p>Tere tulemast!</p>
+      </section>
+
+      <section id="teooria">
+        <h2>Teooria</h2>
+        <p>
+          HTML (Hypertext Markup Language) is a text-based approach to
+          describing how content contained within an HTML file is structured...
+        </p>
+      </section>
+
+      <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>rasmus.linde@voco.ee</p>
+      </section>
+    </main>
+
+    <header>
+      <h1>Õppeveeb</h1>
+    </header>
+
+    <img
+      src="images/ookull.jpg"
+      alt="Ilus lind"
+      style="height: 150px; width: 250px"
+    />
+
+    <footer>© 2025</footer>
+  </body>
+</html>
